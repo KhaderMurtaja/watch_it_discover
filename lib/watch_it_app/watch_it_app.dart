@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:watch_it_discover/pages/counter.dart';
 
+/// The root widget of the application.
 class WatchItApp extends StatelessWidget {
+  /// Constructs the [WatchItApp].
   const WatchItApp({super.key});
 
   @override

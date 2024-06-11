@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
+/// A page that displays a counter.
 class CounterPage extends StatefulWidget {
-  const CounterPage({super.key, required this.title});
+  /// Constructs the [CounterPage].
+  const CounterPage({
+    required this.title,
+    super.key,
+  });
 
+  /// The title of the page.
   final String title;
 
   @override
