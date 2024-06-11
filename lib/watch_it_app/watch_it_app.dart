@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:watch_it_discover/pages/counter.dart';
+import 'package:watch_it_discover/pages/user_name.dart';
 
 /// The root widget of the application.
 class WatchItApp extends StatelessWidget {
@@ -9,12 +9,12 @@ class WatchItApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'WatchIt Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CounterPage(title: 'Flutter Demo Home Page'),
+      home: const UserName(),
     );
   }
 }

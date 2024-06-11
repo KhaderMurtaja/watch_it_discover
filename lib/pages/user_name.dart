@@ -1,21 +1,15 @@
 import 'package:flutter/material.dart';
 
 /// A page that displays a counter.
-class CounterPage extends StatefulWidget {
-  /// Constructs the [CounterPage].
-  const CounterPage({
-    required this.title,
-    super.key,
-  });
-
-  /// The title of the page.
-  final String title;
+class UserName extends StatefulWidget {
+  /// Constructs the [UserName].
+  const UserName({super.key});
 
   @override
-  State<CounterPage> createState() => _CounterPageState();
+  State<UserName> createState() => _UserNameState();
 }
 
-class _CounterPageState extends State<CounterPage> {
+class _UserNameState extends State<UserName> {
   int _counter = 0;
 
   void _incrementCounter() {
@@ -29,7 +23,6 @@ class _CounterPageState extends State<CounterPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
       ),
       body: Center(
         child: Column(
